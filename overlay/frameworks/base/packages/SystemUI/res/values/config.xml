@@ -22,4 +22,7 @@
 
     <!-- Bottom margin size when fingerprint in display is active -->
     <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">140dp</dimen>
+
+    <!-- Color of the FOD view -->
+    <color name="config_fodColor">#1c4abd</color>
 </resources>
