@@ -63,6 +63,9 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 PRODUCT_PACKAGES += \
     lineage.biometrics.fingerprint.inscreen@1.0-service.raphael
+PRODUCT_COPY_FILES += \
+    vendor/aosp/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
+
 
 # FM
 PRODUCT_PACKAGES += \
