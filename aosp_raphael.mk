@@ -19,6 +19,8 @@ PRODUCT_DEVICE := raphael
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_NAME := aosp_raphael
 
+teste
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Inherit from custom vendor
