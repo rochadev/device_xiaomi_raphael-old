@@ -13,4 +13,8 @@
     <privapp-permissions package="com.android.settings">
         <permission name="android.permission.RESET_BATTERY_STATS"/>
     </privapp-permissions>
+
+    <privapp-permissions package="com.android.dialer">
+        <permission name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
+    </privapp-permissions>
 </permissions>
