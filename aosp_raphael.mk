@@ -7,7 +7,7 @@
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit some common AEX stuff.
-TARGET_BOOT_ANIMATION_RES := 2280
+TARGET_BOOT_ANIMATION_RES := 2340
 $(call inherit-product, vendor/aosp/common.mk)
 
 # Device identifier. This must come after all inclusions.
